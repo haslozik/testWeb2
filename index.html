@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Sail Tour</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide.theme.min.css">
+
+    <script src="https://kit.fontawesome.com/a821291b86.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!--navigation bar-->
+<header>
+    <img src="img/logo.png">
+    <nav>
+        <ul>
+            <a href="#"><li>HOME</li></a>
+            <a href="#"><li>BOAT LIST</li></a>
+            <a href="#"><li>ACTIVITIES</li></a>
+            <a href="#"><li>FAQ</li></a>
+            <a href="#"><li>CONTACT</li></a>
+        </ul>
+    </nav>
+    <ul id="contactNav">
+        <li><i class="fas fa-phone"></i> +123 456 789</li>
+    </ul>
+</header>
+<!--titleTextSection-->
+<section id="titleTextContent">
+    <h1>
+        SAN BLAS<br>
+        <span style="color: rgb(14, 238, 238);">MADE EASY!</span>
+    </h1>
+    <p>
+        Discover the San Blas<br>
+        islands like never before.
+    </p>
+    <button>GET IN TOUCH</button>
+</section>
+<!--offer section-->
+<section id="offerContent">
+    <div class="offerSquares">
+        <h1>Are you an adventurous spirit?</h1>
+        <a href="#">
+            <div class="offerSquare">
+                <img src="img/snorkeling.jpg">
+                <div class="offerText">
+                    <h1>Snorkeling</h1>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="offerSquare">
+                <img src="img/sailing.jpg">
+                <div class="offerText">
+                    <h1>Sailing</h1>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="offerSquare">
+                <img src="img/paddling.jpg">
+                <div class="offerText">
+                    <h1>Paddling</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="offerSquares">
+        <h1>Do you prefer something lighter?</h1>
+        <a href="#">
+            <div class="offerSquare">
+                <img src="img/wsb.jpg">
+                <div class="offerText">
+                    <h1>White Sand Beaches</h1>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="offerSquare">
+                <img src="img/locals.jpg">
+                <div class="offerText">
+                    <h1>Visit Local Indigenous</h1>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="offerSquare">
+                <img src="img/food.jpg">
+                <div class="offerText">
+                    <h1>Food Experience</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!--offer section => slider section-->
+    <div class="offerSquares" style="position: relative;">
+        <h1>We have 6 sailboats to choose from:</h1>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="offerSquareSlider">
+                            <img src="img/food.jpg">
+                            <div class="offerText">
+                                <h1>Food Experience</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="offerSquareSlider">
+                            <img src="img/food.jpg">
+                            <div class="offerText">
+                                <h1>Food Experience</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="offerSquareSlider">
+                            <img src="img/food.jpg">
+                            <div class="offerText">
+                                <h1>Food Experience</h1>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" id="leftArrow" data-glide-dir="<">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="glide__arrow glide__arrow--right" id="rightArrow" data-glide-dir=">">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+        </div>
+    </div>
+</section>
+
+<div  style="margin-bottom: 250px;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
