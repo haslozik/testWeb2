@@ -178,6 +178,65 @@ nav li:hover {
     color: #777;
 }
 
+/*contact section*/
+#contactContent {
+    width: 100%;
+    padding: 100px 0;
+    margin: 0 auto;
+    height: 100%;
+    background: rgb(69, 183, 218);
+    display: flex;
+    align-items: center;
+}
+
+#contactForm {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#contactForm h1 {
+    margin-right: 50px;
+    font-size: 55px;
+    color: #fff;
+}
+
+/*input*/#email {
+    font-size: 20px;
+    letter-spacing: 3px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    caret-color: #fff;
+    padding: 10px;
+}
+
+#email::placeholder {
+    color: #fff;
+}
+
+#email:focus {
+    outline: none;
+}
+
+/*button*/#submit {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#submit:focus {
+    outline: none;
+}
+
+#submit:hover {
+    color: #ededed;
+}
+
 /*footer*/
 #footer {
     width: 100%;
